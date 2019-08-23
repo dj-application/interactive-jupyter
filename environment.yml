@@ -1,0 +1,8 @@
+name: interactive-jupytyer
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - sphinx
+  - ipywidgets
+  - voila
