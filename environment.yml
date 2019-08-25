@@ -1,4 +1,4 @@
-name: interactive-jupytyer
+name: interactive-jupyter
 channels:
   - defaults
   - conda-forge
