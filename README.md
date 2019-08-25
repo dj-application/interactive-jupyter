@@ -3,15 +3,15 @@
 ##  How to add interactive controls in jupyter notebooks?
 ```
 # 1. Create a conda environment
-conda env create 
+conda env create
 conda activate interactive-jupyter
 
-# 2. Render a notebook into a interactive notebook using voila
+# 2. Render a notebook as an interactive notebook using voila
 
-# 1) Render a notebook as a standalone tornado application
+# 1) Default: Render a notebook as a standalone application without source code 
 voila notebook.ipynb
 
-# 2) If you want to show the source code for a voila notebook
+# 2) However, if you want to show the source code for a voila notebook
 voila basics.ipynb --strip_sources=False
 
 # 3. Open http://localhost:8866/
