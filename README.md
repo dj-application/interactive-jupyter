@@ -1,23 +1,27 @@
 # interactive-jupyter
 
-## Usage
+##  How to add interactive controls in jupyter notebooks?
 ```
-conda env create
+# 1. Create a conda environment
+conda env create 
 conda activate interactive-jupyter
 
-## Quick start
-sphinx-quickstart
+# 2. Render a notebook into a interactive notebook using voila
 
-'''
-Project name: interactive jupyter
-Author name(s): j
-Project release []:
-'''
+# 1) Render a notebook as a standalone tornado application
+voila notebook.ipynb
+
+# 2) If you want to show the source code for a voila notebook
+voila basics.ipynb --strip_sources=False
+
+# 3. Open http://localhost:8866/
 ```
-
 
 
 ## Reference
- * [Interactive Controls in Jupyter Notebooks](git@github.com:dj-application/interactive-jupyter.git)
+ * [binder](https://mybinder.org/v2/gh/WillKoehrsen/Data-Analysis/widgets-stable?filepath=widgets%2FWidgets-Overview.ipynb)
+ * [bqplot](https://github.com/bloomberg/bqplot)
  * [Voila](https://github.com/QuantStack/voila)
  * [voila-gallery](https://voila-gallery.org/services/gallery/)
+ * [Interactive Controls in Jupyter Notebooks](https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6)
+ * [Jupyter Notebook Extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
