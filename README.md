@@ -9,10 +9,10 @@ conda activate interactive-jupyter
 # 2. Render a notebook as an interactive notebook using voila
 
 # 1) Default: render a notebook as a standalone application without source code
-voila notebook.ipynb
+voila voila/notebooks/basics.ipynb
 
 # 2) If you want to show the source code
-voila notebook.ipynb --strip_sources=False
+voila voila/notebooks/basics.ipynb --strip_sources=False
 
 # 3. Open http://localhost:8866/
 ```
@@ -21,6 +21,7 @@ voila notebook.ipynb --strip_sources=False
 ## Reference
  * [binder](https://mybinder.org/v2/gh/WillKoehrsen/Data-Analysis/widgets-stable?filepath=widgets%2FWidgets-Overview.ipynb)
  * [bqplot](https://github.com/bloomberg/bqplot)
+ * [qgrid](https://github.com/quantopian/qgrid)
  * [Voila](https://github.com/QuantStack/voila)
  * [voila-gallery](https://voila-gallery.org/services/gallery/)
  * [Jupyter Notebook Extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
