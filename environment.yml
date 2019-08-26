@@ -3,6 +3,11 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - sphinx
   - ipywidgets
+  - ipykernel
   - voila
+  - bqplot
+  - pandas
+  - numpy
+  - matplotlib
+  - sphinx
