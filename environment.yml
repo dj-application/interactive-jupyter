@@ -7,6 +7,7 @@ dependencies:
   - ipykernel
   - voila
   - bqplot
+  - qgrid
   - pandas
   - numpy
   - matplotlib
