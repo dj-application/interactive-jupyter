@@ -1,6 +1,6 @@
 # interactive-jupyter
 
-##  How to add interactive controls in jupyter notebooks?
+##  How to render live Jupyter notebooks?
 ```
 # 1. Create a conda environment
 conda env create
